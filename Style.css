@@ -1,0 +1,55 @@
+body {
+	font-family: arial;
+	background-color: #e7e4ed;
+}
+
+h1, h2 {
+	font-family: candara, arial;
+	font-weight: 700;
+	line-height: 50%;
+	font-size: 30px;
+	text-align: center;
+	color: #6f8cb1;
+}
+
+h2 {
+	font-size: 25px;
+	color: #673ab7;
+	font-weight: 100;
+}
+
+.newGame {
+	position: relative;
+	width: 100px;
+	margin: auto;
+	margin-top: 10px;
+	padding: 5px;
+	color: #7d5d7d;
+	font-size: 16px;
+}
+
+.gameField {
+	position: relative;
+	margin: auto;
+	margin-top: 50px;
+	padding: 2px;
+	width: 186px;
+	height: 186px;
+	border: 1px solid grey;
+	background-color: white;
+}
+
+.cell {
+	font-size: 30px;
+	font-family: consolas;
+	line-height: 0;
+	margin: 2px;
+	width: 54px;
+	height: 54px;
+	position: relative;
+	float: left;
+	display: inline-block;
+	text-align: center;
+	border: 2px solid grey;
+}
+
